@@ -16,7 +16,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-      run: echo ${{env.MY_VARIABLE}} 
+    - run: echo ${{env.MY_VARIABLE}} 
 
     - name: Configure CMake
       run: cmake -B ${{ github.workspace }}/build -DCMAKE_BUILD_TYPE=${{ env.BUILD_TYPE }} -DUSE_STATIC_LIB=ON
