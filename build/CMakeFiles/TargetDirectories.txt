@@ -1,4 +1,0 @@
-C:/Users/Vlais/OneDrive/Desktop/опи_8_копия/build/CMakeFiles/game.dir
-C:/Users/Vlais/OneDrive/Desktop/опи_8_копия/build/CMakeFiles/tictactoe.dir
-C:/Users/Vlais/OneDrive/Desktop/опи_8_копия/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Vlais/OneDrive/Desktop/опи_8_копия/build/CMakeFiles/ZERO_CHECK.dir
