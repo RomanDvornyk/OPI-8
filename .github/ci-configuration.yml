@@ -2,7 +2,7 @@ name: CI_DvornykRoman_Z-21
 
 on:
   push:
-    branches: [ "master", "dev" ]
+    branches: [ "master", "Branch" ]
   pull_request:
     branches: [ "master" ]
 
