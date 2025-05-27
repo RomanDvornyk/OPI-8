@@ -2,9 +2,9 @@ name: CI_DvornykRoman_Z-21
 
 on:
   push:
-    branches: [ "master", "Branch" ]
+    branches: [ "main", "Branch" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 env:
   BUILD_TYPE: Release
