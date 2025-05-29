@@ -7,7 +7,7 @@ int main() {
     createFiles();
 
     while (true) {
-        std::cout << "Привет! Это крестики-нолики от Марченко и Назаренко. Приятной игры <3\n";
+        std::cout << "Привет! Это крестики-нолики.\n";
         std::cout << "1. Начать игру\n";
         std::cout << "2. Настройки\n";
         std::cout << "3. История игр\n";
@@ -16,7 +16,6 @@ int main() {
 
         int choice;
         while (!(std::cin >> choice) || (choice < 1 || choice > 4)) {
-            std::cout << "Вы не правы ";
             std::cout << "Ошибка выбора. Введите число от 1 до 4: ";
             std::cin.clear();
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');

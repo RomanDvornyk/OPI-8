@@ -1,8 +1,8 @@
-name: CI_MarchenkoVladyslav_Z-21
+name: CI_DvornykRoman_Z-21
 
 on:
   push:
-    branches: [ "master", "dev" ]
+    branches: [ "master", "Roman" ]
   pull_request:
     branches: [ "master" ]
 
